@@ -23,7 +23,7 @@ from fastapi              import status
 #from fastapi              import UploadFile
 from structlog            import get_logger
 
-from iarest.main          import start_server
+from ia_rest.main          import start_server
 
 logger = get_logger()
 
