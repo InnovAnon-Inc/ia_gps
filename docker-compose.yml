@@ -8,6 +8,7 @@ services:
         -           ia_gps:latest
         - innovanon/ia_gps
         -           ia_gps
+    image:            innovanon/ia_gps
     restart:          no
     logging:
       driver:         syslog   
