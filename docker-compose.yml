@@ -5,9 +5,9 @@ services:
       context:        .
       tags:
         - innovanon/ia_gps:latest
-        -           ia_gps:latest
-        - innovanon/ia_gps
-        -           ia_gps
+    #    -           ia_gps:latest
+    #    - innovanon/ia_gps
+    #    -           ia_gps
     image:            innovanon/ia_gps
     restart:          no
     logging:
