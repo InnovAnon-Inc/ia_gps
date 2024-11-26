@@ -4,7 +4,10 @@ services:
     build:
       context:        .
       tags:
-        - ia_gps:latest
+        - innovanon/ia_gps:latest
+        -           ia_gps:latest
+        - innovanon/ia_gps
+        -           ia_gps
     restart:          no
     logging:
       driver:         syslog   
